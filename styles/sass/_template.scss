@@ -1,0 +1,188 @@
+.backgroundImage{
+    background-image: url(/assets/plantable-full-width.png);
+    background-size: cover;
+    height: 100vh;
+    padding: 200px 200px;
+    
+
+}
+
+.backgroundImage{
+
+    h1{
+
+    
+    color: white;
+}
+
+    h2{
+        text-transform: uppercase;
+        color: white;
+    }
+}
+
+
+
+.wrapper1{
+//   position:fixed;
+  position: relative;
+  
+//   top: 40%;
+//   left: 11.7%;
+//   transform: translate(-50%, -50%);
+ 
+}
+
+.link_wrapper{
+//   position: relative;
+  position: relative;
+
+  
+
+
+a{
+  display: block;
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #333;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid #333;
+  transition: all .35s;
+  font-size: 2rem;
+  
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  border: 3px solid transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transition: all .35s;
+}
+
+.icon svg{
+  width: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  transform: rotate(-45deg);
+  fill:#F2AE30;
+  transition: all .35s;
+}
+
+a:hover{
+  width: 200px;
+  border: 3px solid #F2AE30;
+  background: transparent;
+  color: #F2AE30;
+}
+
+a:hover + .icon{
+  border: 3px solid #F2AE30;
+  right: -25%;
+}
+}
+
+.mainSection{
+    color: black;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .container{
+        
+        // display: flex;
+        // justify-content: space-between;
+    }
+
+
+h3{
+    text-align: left;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+ol{
+padding-inline-start: 20px;    
+    font-size: 1.8rem;
+
+}
+p{
+    font-size: 1.8rem;
+}
+
+.plantable-image{
+    background-image: url(/assets/plantable.png);
+    background-size: cover;
+    width: 100%;
+    
+    
+
+}
+.container{
+    width: 100%;
+    padding: 20px;
+}
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    
+  
+.mainSection{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;
+    padding: 0px 0px;
+
+    
+}
+.backgroundImage, .hondaBackgroundImage, .etsyBackgroundImage, .acuraBackgroundImage, .hondaBackgroundImage, .scratchBackgroundImage, .hondaBackgroundImage, .riseBackgroundImage, .tffsbackgroundImage, .tffbackgroundImage, .trilliumBackgroundImage, .mitsuBackgroundImage, 
+.tffappBackgroundImage{
+    height: 60vh !important;
+    padding: 30px 30px !important;
+    background-size: cover !important;
+    overla
+
+   
+h1{
+
+    
+    color: white;
+}
+
+    h2{
+        text-transform: uppercase;
+        color: white;
+    }
+
+}
+
+
+h1{
+    font-size: 40px;
+}
+
+.mobile-background{
+
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}.mobile-header{
+    color: white;
+}
+
+}
+
+

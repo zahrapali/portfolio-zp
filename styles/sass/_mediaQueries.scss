@@ -1,0 +1,45 @@
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+h1{
+  font-size: 2.5rem;
+}
+h2{
+  font-size: 2rem;
+}
+p{
+  font-size: 1.8rem;
+}
+.headerContainer .headerItemCopy{
+  padding-left: 10px;
+  padding-right: 0px;
+
+
+}
+.headerItemCopy {
+  width: 100%;
+
+
+  }
+  .headerContainer{
+    background-image: url(/assets/sj-objio-XFWiZTa2Ub0-unsplash.jpg);
+  }
+
+
+  .gallery{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gallery__column{
+    width: 100%;
+  }
+}
+
+
+
+
