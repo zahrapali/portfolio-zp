@@ -98,8 +98,8 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 100px;
+    padding-left: 100px;
   }
 
   .headerImage {
@@ -145,7 +145,7 @@ h3 {
 .headerItemCopy {
   width: 50%;
   p{
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 300;
   font-family: "karla";

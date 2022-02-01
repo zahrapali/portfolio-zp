@@ -387,8 +387,8 @@ nav .navBar :hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-right: 200px;
-  padding-left: 200px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .headerContainer .headerImage {
@@ -430,7 +430,7 @@ h3 {
 }
 
 .headerItemCopy p {
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 300;
   font-family: "karla";
@@ -908,7 +908,7 @@ body {
     width: 100%;
   }
   .headerContainer {
-    background-image: url(/assets/sj-objio-XFWiZTa2Ub0-unsplash.jpg);
+    background-image: url(/assets/portoflio-headshot.gif);
   }
   .gallery {
     display: -webkit-box;
