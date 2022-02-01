@@ -903,6 +903,8 @@ body {
   .headerContainer .headerItemCopy {
     padding-left: 10px;
     padding-right: 0px;
+    background: -webkit-gradient(linear, left top, right top, color-stop(22%, rgba(255, 255, 255, 0.871586)), to(rgba(255, 255, 255, 0)));
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.871586) 22%, rgba(255, 255, 255, 0) 100%);
   }
   .headerItemCopy {
     width: 100%;
