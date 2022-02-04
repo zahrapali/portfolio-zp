@@ -1228,6 +1228,9 @@ footer {
     font-size: 17px;
     display: block;
   }
+  .topnav .mobilelogo {
+    font-family: "Playfair";
+  }
   /* Style the hamburger menu */
   .topnav a.icon {
     background: black;
@@ -1238,7 +1241,7 @@ footer {
   }
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: white;
     color: black;
   }
   /* Style the active link (or home/logo) */
