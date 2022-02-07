@@ -1038,7 +1038,13 @@ body {
 }
 
 .mainSection .plantable-image {
-  background-image: url(/assets/plantable.png);
+  background-image: url(/assets/section/Plantable-section-1@3x.png);
+  background-size: cover;
+  width: 100%;
+}
+
+.mainSection .plantable-image-two {
+  background-image: url(/assets/section/Plantable-section-3@3x.png);
   background-size: cover;
   width: 100%;
 }
