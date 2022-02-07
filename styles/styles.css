@@ -929,19 +929,21 @@ body {
 }
 
 .backgroundImage {
-  background-image: url(/assets/plantable-full-width.png);
-  background-size: cover;
+  background-image: url(/assets/Plantable-main@3x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
   height: 100vh;
   padding: 200px 200px;
 }
 
 .backgroundImage h1 {
-  color: white;
+  color: black;
 }
 
 .backgroundImage h2 {
   text-transform: uppercase;
-  color: white;
+  color: black;
 }
 
 .wrapper1 {
